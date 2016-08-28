@@ -1,0 +1,656 @@
+/*
+Theme Name: Service Tema
+Author: Eder Gabriel
+Description: Teste
+Version: 1.0
+*/
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Dosis', Arial, Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+header {
+	background: #e6e6e6;
+	position:fixed;
+	z-index: 2;
+	width: 100%
+}
+
+header h1 {
+	margin: 0;
+}
+
+.mainMenu {
+	background:#ed1c24;
+	float:left;
+	width:100%;
+	height: 80px;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+nav a:hover {
+	color:#FFF;
+}
+
+
+.no-margin-gutter > [class*='row'] {
+    margin-right:0;
+    margin-left:0;
+}
+
+.left {
+	float: left;
+}
+.logo {
+	margin: 12px;
+}
+
+.alignContent {
+	padding: 191px 0 0 0;
+}
+
+.mainBanner {
+	width: 100%;
+	float:left;
+	padding: 10px 0;
+}
+
+.mainBanner img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainSearch input {
+	padding: 5px;
+}
+
+.mainSearch button {
+	background: transparent;
+	color: #aaaaaa;
+	cursor: pointer;
+	left: -38px;
+	top: -1px;
+	position: relative;
+}
+
+.mainSearch label {
+	cursor: pointer;
+}
+
+.subMenu {
+	background: url("../img/subMenu.png") no-repeat #242424;
+    float: left;
+    color: #FFF;
+    width: 100%;
+    height: 28px;
+}
+
+.subMenu h2 {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 100px;
+	margin: 7px 0 0 18px;
+	float: left;
+}
+
+.subMenu nav {
+	float: left;
+	margin: 3px 0 0 50px;
+}
+
+
+.subMenu nav li {
+	display: inline;
+	list-style: none;
+}
+
+.subMenu a {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 4px 10px;
+
+}
+
+.mainlyContent {
+	margin-top: 10px;
+	float: left;
+}
+
+
+
+.columnGroup {
+	margin-top: 20px;
+	float: left;
+}
+
+.columnModule h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 21px;
+	margin: 5px 0;
+}
+
+.columnModule a {
+	color: #000000;
+}
+.ColumnModuleLink a {
+	color: #ed1c24;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menuHamburguer {
+	color:#FFF;
+
+}
+.controlMenu {
+	float: right;
+	margin: 20px 25px  0 0;
+
+}
+
+.searchMobile {
+	float:left;
+	margin: 20px 0  0 25px;
+}
+.menuHamburguer label, .menuHamburguer label:hover, .searchMobile a label, .searchMobile a label:hover {
+	color:#FFF;
+	cursor: pointer;
+	font-size: 27px;
+}
+
+.bgShadow {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	background: #000;
+	display: none;
+	z-index:1;
+}
+
+.modalConfirmation {
+	width: 500px;
+	position: absolute;
+	margin-right: 369px;
+	margin-left: -250px;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	background: #FFF;
+}
+
+.bannerMain {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.firstBanner {
+	width:100%;
+	float:left;
+}
+
+.firstBanner img {
+	display:block;
+}
+
+.firstBanner p {
+	line-height: 31px;
+    font-size: 20px;
+}
+
+.titleProject h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.bgProjectDescription {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #CCC;
+	display: none;
+	z-index:3;
+}
+
+@media (min-width: 1300px) {
+
+	header nav {
+		margin:16px 0 0 20px;
+		display:block;
+		float: left;
+	}
+
+	header nav ul {
+		
+	}
+	header nav li {
+		display: inline;
+		list-style: none;
+	}
+
+	header nav a {
+		text-decoration: none;
+		padding: 12px;
+		float: left;
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.mainSearch input {
+		margin: 20px 0 0 10px;
+	}
+
+
+
+	.menu-full{
+		display:block !important;
+	}
+
+	.bgShadow {
+		display: none !important;
+	}
+	
+
+	.mainFeatured {
+		width: 50%;
+		height: 400px;
+		float:left;
+	}
+
+	.mainFeatured img {
+		height: 400px;
+	}
+
+	.mainFeatured-small img {
+		height: 200px;
+	}
+
+	.mainFeatured-small {
+		width: 25%;
+		height: 200px;
+		float:left;
+	}
+
+
+
+	.mainFeatured h2, .mainFeatured-small h2 {
+		text-align: right;
+		font-size:12px;
+		margin: 0;
+	}
+
+
+
+	.mainFeatured h3, .mainFeatured-small h3 {
+		text-align: right;
+		float: right;
+		margin: 0;
+	}
+
+	.mainFeatured h3 a, .mainFeatured-small h3 a {
+		color: #FFF;
+		text-shadow: 2px 2px 5px #000000;
+		text-transform: uppercase;
+		
+
+	}
+	.mainFeatured-small h3 a {
+		font-size: 20px;
+	}
+	.mainFeatured h3 a {
+		font-size: 25px;
+	}
+
+	.positionTextFeatured {
+		width: 260px;
+		position:relative;
+		top: -89px;
+	    left: 350px;
+	}
+
+	.positionTextFeatured h2, .positionTextFeatured-small h2, .positionTextColumn h2 {
+		color:#FFF;
+		text-shadow: 2px 2px 5px #000000;
+		text-transform: uppercase;
+	}
+
+	.positionTextFeatured h2 label, .positionTextFeatured-small h2 label, .positionTextColumn h2 label{
+		color: #ed1c24;
+		margin-right: 5px;
+	}
+
+
+	.positionTextFeatured-small {
+		width: 300px;
+		position: relative;
+	    top: -85px;
+	    left: 0px;
+	}
+
+	.positionTextColumn {
+		position: relative;
+		top: -25px;
+		left: 10px;
+	}
+
+	.positionTextColumn h2 {
+		font-size:12px;
+		margin: 0;
+	}
+
+}
+
+
+
+@media (min-width: 980px) and (max-width: 1299px) {
+
+	header nav {
+		margin: 5px 0 0 0px;
+		display:block;
+		float: left;
+	}
+
+	header nav ul {
+		
+	}
+	header nav li {
+		display: inline;
+		list-style: none;
+	}
+
+	header nav a {
+		text-decoration: none;
+		padding: 7px;
+		float: left;
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.mainSearch input {
+		margin: 0 0 0 5px;
+	}
+
+
+
+	.menu-full{
+		display:block !important;
+	}
+
+	.bgShadow {
+		display: none !important;
+	}
+	
+
+
+
+	.mainFeatured {
+		width: 50%;
+		height: 400px;
+		/*background: url("../img/bmw2015.jpg") center;*/
+		float:left;
+	}
+
+	.mainFeatured img {
+		height: 400px;
+	}
+
+	.mainFeatured-small img {
+		height: 200px;
+	}
+
+	.mainFeatured-small {
+		width: 25%;
+		height: 200px;
+		float:left;
+	}
+
+
+
+	.mainFeatured h2, .mainFeatured-small h2 {
+		text-align: right;
+		font-size:12px;
+		margin: 0;
+	}
+
+
+
+	.mainFeatured h3, .mainFeatured-small h3 {
+		text-align: right;
+		float: right;
+		margin: 0;
+	}
+
+	.mainFeatured h3 a, .mainFeatured-small h3 a {
+		color: #FFF;
+		text-shadow: 2px 2px 5px #000000;
+		text-transform: uppercase;
+		
+
+	}
+	.mainFeatured-small h3 a {
+		font-size: 15px; /* change */
+	}
+	.mainFeatured h3 a {
+		font-size: 25px;
+	}
+
+	.positionTextFeatured {
+		width: 260px;
+		position:relative;
+		top: -89px;
+	    left: 180px; /* change */
+	}
+
+	.positionTextFeatured h2, .positionTextFeatured-small h2, .positionTextColumn h2 {
+		color:#FFF;
+		text-shadow: 2px 2px 5px #000000;
+		text-transform: uppercase;
+	}
+
+	.positionTextFeatured h2 label, .positionTextFeatured-small h2 label, .positionTextColumn h2 label{
+		color: #ed1c24;
+		margin-right: 5px;
+	}
+
+
+	.positionTextFeatured-small {
+		width: 300px;
+		position: relative;
+	    top: -85px;
+	    right: 89px;
+	}
+
+	.positionTextColumn {
+		position: relative;
+		top: -25px;
+		left: 10px;
+	}
+
+	.positionTextColumn h2 {
+		font-size:12px;
+		margin: 0;
+	}
+
+
+}
+
+
+
+
+@media (max-width: 979px){
+	.logo {
+		height: auto;
+		margin: 15px;
+	}
+
+	header nav {
+		position: fixed;
+		top: 168px;
+		right: 0px;
+		width: 100%;
+		display: none;
+	}
+	header nav li {
+		list-style: none;
+	}
+	header nav a {
+		background-color: #d41f1f;
+		width: 100%;
+		border-bottom: solid 1px #c21c1c;
+		padding: 10px;
+		display: block;
+		color:#FFF;
+		font-size: 18px;
+		text-transform: lowercase;
+	}
+
+	.mainMenu h1 {
+		text-align: center;
+		float: left;
+		width: 100%;
+	}
+
+
+	.mainFeatured {
+		width: 100%;
+		height: auto;
+		position:relative;
+	}
+
+	.mainFeatured-small {
+		width: 100%;
+		margin-top: 10px;
+		height: auto;
+		position:relative;
+	}
+
+	.mainFeatured h2, .mainFeatured-small h2 {
+		text-align: right;
+		font-size:12px;
+		margin: 0;
+	}
+
+
+	.mainFeatured h3, .mainFeatured-small h3 {
+		text-align: right;
+		float: right;
+		margin: 0;
+	}
+
+	.mainFeatured h3 a, .mainFeatured-small h3 a {
+		color: #FFF;
+		text-shadow: 2px 2px 5px #000000;
+		text-transform: uppercase;
+	}
+	.mainFeatured-small h3 a {
+		font-size: 25px; 
+	}
+	.mainFeatured h3 a {
+		font-size: 25px;
+	}
+
+	.positionTextFeatured {
+		float: left;
+		 position: absolute;
+		 right: 25px;
+		 top: 140px;
+	}
+
+	.positionTextFeatured h2, .positionTextFeatured-small h2, .positionTextColumn h2 {
+		color:#FFF;
+		text-shadow: 2px 2px 5px #000000;
+		text-transform: uppercase;
+	}
+
+	.positionTextFeatured h2 label, .positionTextFeatured-small h2 label, .positionTextColumn h2 label{
+		color: #ed1c24;
+		margin-right: 5px;
+	}
+
+
+	.positionTextFeatured-small {
+
+		float: left;
+		 position: absolute;
+		 right: 25px;
+		 top: 140px;
+	}
+
+	.positionTextColumn {
+		position: relative;
+		top: -25px;
+		left: 10px;
+	}
+
+	.positionTextColumn h2 {
+		font-size:12px;
+		margin: 0;
+	}
+
+	.alignContent {
+		padding: 162px 0 0 0;
+	}
+
+	.container {
+		width: 100%;
+	}
+	.subMenu, .mainSearch, .menuExpanded {
+		display: none;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.mainMenu h1 {
+		width: 88%;
+	}
+
+	header nav {
+		top: 120px;
+	}
+}
+
+
+@media (max-width: 979px) {
+
+}
+
+@media (min-width: 980px) {
+	.container {
+		width: 960px;
+	}
+
+	.controlMenu, .menuMobile {
+		display: none;
+	}
+
+}
+
+@media (min-width: 1300px) {
+	.container {
+		width: 1290px;
+	}
+
+	.controlMenu, .menuMobile {
+		display: none;
+	}
+}
